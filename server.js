@@ -3,10 +3,16 @@ import morgan from "morgan";
 import schoolRoutes from "./routes/schoolRoutes.js";
 import { configDotenv } from "dotenv";
 import { initDB } from "./db.js";
+import cors from "cors";
 
 configDotenv();
 
 const app = express();
+
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST"]
+}));
 
 app.use(express.json());
 app.use(morgan("dev"));
