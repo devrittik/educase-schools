@@ -62,10 +62,10 @@ export const listSchools = async (req, res) => {
     const userLat = Number(latitude);
     const userLng = Number(longitude);
 
-    if (isNaN(userLat) || isNaN(userLng ||
+    if (isNaN(userLat) || isNaN(userLng) ||
       userLat < -90 || userLat > 90 ||
       userLng < -180 || userLng > 180
-    )) {
+    ) {
       return res.status(400).json({ error: "Invalid coordinates" });
     }
 
