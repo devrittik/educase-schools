@@ -47,10 +47,9 @@ Adds a new school.
 ```
 [![Try Now](https://img.shields.io/badge/Try%20Now-blue?logo=gnometerminal)](https://educase-schools-api.docs.buildwithfern.com/educase-schools/add-school?explorer=true)
 
----
-
 ### GET /listSchools?latitude=22.57&longitude=88.36
-Returns upto 10 schools sorted by nearest distance.
+Returns up to 10 schools sorted by nearest distance.
+
 [![Try Now](https://img.shields.io/badge/Try%20Now-blue?logo=gnometerminal)](https://educase-schools-api.docs.buildwithfern.com/educase-schools/list-schools?explorer=true)
 
 ---
@@ -87,6 +86,7 @@ PORT=serverport
 ## Author
 
 Rittik Chakraborty
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=inspire)](https://www.linkedin.com/in/rittik-chakraborty/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-success?logo=ghostfolio)](https://rittikchakraborty.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/devrittik/)
