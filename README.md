@@ -4,6 +4,10 @@ A Node.js + Express.js + MySQL API to add schools and list nearby schools sorted
 
 ---
 
+> 🚀 Stable Release: Production-ready deployment with always-on cloud hosting (no idle timeout).
+
+---
+
 ## Features
 
 - Add School API
